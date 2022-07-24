@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .food{
+        border: 5px solid red;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .food img{
+        width: 20%;
+    }
+    @media screen and (max-width: 576px) {
+        .container{
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+    @media screen and (min-width: 577px) and (max-width: 992px) {
+        .container{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, totam qui tenetur dolores praesentium eaque doloribus reiciendis quo inventore autem illo! Error laboriosam quae dicta consequuntur vitae fugiat minus! Minus.</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Deserunt nobis voluptatibus reprehenderit et hic provident nam nostrum a corrupti libero. Adipisci, deserunt. Numquam, praesentium. Assumenda voluptas deserunt enim deleniti facilis sapiente, totam cupiditate, nesciunt numquam natus aspernatur quam.</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Consequuntur quae eius praesentium ut qui molestias. Dicta alias corporis officia, ducimus ut optio, rem laudantium nesciunt dolorum, doloribus magni voluptatem voluptate! Iste consequuntur consequatur unde adipisci quam natus architecto!</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Exercitationem distinctio quidem repellat! Ducimus debitis tempore quibusdam optio iure consectetur deleniti aliquid, necessitatibus nisi error expedita eius maxime? In repellat, aliquam adipisci magni laboriosam atque veritatis libero neque ab.</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Alias iure, tempore non repellat quisquam, quod et nihil cupiditate voluptatum modi eveniet tenetur numquam quas aut dolores dolore sequi officia laboriosam blanditiis? Ex quisquam animi eos. Est, sint officiis.</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Alias iure, tempore non repellat quisquam, quod et nihil cupiditate voluptatum modi eveniet tenetur numquam quas aut dolores dolore sequi officia laboriosam blanditiis? Ex quisquam animi eos. Est, sint officiis.</p>
+            <button>order now</button>
+        </div>
+    </div>
+</body>
+</html>
